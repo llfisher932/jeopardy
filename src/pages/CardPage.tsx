@@ -30,7 +30,7 @@ const CardPage = ({ money, para }: { money: number; para: string }) => {
             </ReactMarkdown>
           </div>
         </div>
-        <div className="flex justify-center text-center h-[10%] text-yellow-500 text-3xl mt-10 mb-5">
+        <div className="flex justify-center text-center h-[10%] text-yellow-400 text-3xl mt-10 mb-5">
           For {money} dollars
         </div>
         <div className="flex justify-center gap-10 text-center mb-15" id="buttons">

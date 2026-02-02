@@ -12,7 +12,7 @@ const Main = () => {
           <Title title={col.title} />
 
           {col.cards.map((card) => (
-            <div key={card.id} className="h-31">
+            <div key={card.id} className="h-32">
               {!card.completed && <Card id={card.id} para={card.para} money={card.money} />}
             </div>
           ))}

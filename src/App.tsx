@@ -46,7 +46,12 @@ function App() {
     name: string;
   };
   const [inputMenu, setInputMenu] = useState(false);
-  const [profiles, setProfiles] = useState<ProfileData[]>([{ name: "Reid" }, { name: "Alex" }]);
+  const [profiles, setProfiles] = useState<ProfileData[]>([
+    { name: "New Profile" },
+    { name: "New Profile" },
+    { name: "New Profile" },
+    { name: "New Profile" },
+  ]);
   return (
     <div className="bg-blue-900 w-dvw h-dvh flex items-center  flex-col">
       {pageState === "main" && <Main />}
